@@ -17,7 +17,7 @@ const phases = [
   {
     title: "Algumas coisas sobre nós",
     subtitle: "O início de tudo 💕",
-    words: ['TINDER', 'DEZEMBRO', '', 'AMOR', 'PRIMEIRAVEZ', 'ENCONTRO', 'MEXICANO', 'TACOS', 'BURRITOS', 'CERVEJA'],
+    words: ['TINDER', 'DEZEMBRO', 'ANOS', 'AMOR', 'PRIMEIRAVEZ', 'ENCONTROS', 'MEXICANO', 'TACOS', 'BURRITOS', 'CERVEJA'],
     message: "Foi assim que tudo começou... Um match que mudou nossas vidas para sempre! 💖"
   },
   {

@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/vite-env.d.ts","./src/app.vue","./src/components/floatinghearts.vue","./src/components/gameboard.vue","./src/components/helloworld.vue","./src/components/homepage.vue","./src/components/phasecomplete.vue","./src/components/wordsearchgrid.vue"],"errors":true,"version":"5.6.2"}

@@ -174,7 +174,7 @@ const handleCellMouseDown = (row: number, col: number) => {
   isSelecting.value = true
   startCell.value = { row, col }
   currentSelection.value = [{ row, col }]
-  selectedCells.value.clear()
+  //selectedCells.value.clear()
   selectedCells.value.add(`${row}-${col}`)
 }
 
@@ -182,7 +182,7 @@ const handleCellMouseEnter = (row: number, col: number) => {
   if (isSelecting.value && startCell.value) {
     const cells = getCellsBetween(startCell.value, { row, col })
     currentSelection.value = cells
-    selectedCells.value.clear()
+    //selectedCells.value.clear()
     cells.forEach(cell => selectedCells.value.add(`${cell.row}-${cell.col}`))
   }
 }
