@@ -1,0 +1,84 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  color: #8B008B;
+  background: linear-gradient(135deg, #FFB6C1 0%, #FFF0F5 50%, #DDA0DD 100%);
+  min-height: 100vh;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #FFB6C1 0%, #FFF0F5 50%, #DDA0DD 100%);
+  background-attachment: fixed;
+}
+
+.heart-float {
+  position: fixed;
+  color: #FF69B4;
+  font-size: 1.5rem;
+  animation: float 3s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.heart-float:nth-child(2n) {
+  animation-delay: -1s;
+  color: #FFB6C1;
+}
+
+.heart-float:nth-child(3n) {
+  animation-delay: -2s;
+  color: #DDA0DD;
+}
+
+.word-grid {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.grid-cell {
+  transition: all 0.2s ease;
+}
+
+.grid-cell:hover {
+  transform: scale(1.05);
+}
+
+.grid-cell.selected {
+  background: linear-gradient(45deg, #FF69B4, #FFB6C1);
+  color: white;
+  transform: scale(1.1);
+}
+
+.grid-cell.found {
+  background: linear-gradient(45deg, #32CD32, #90EE90);
+  color: white;
+}
+
+.word-item.found {
+  text-decoration: line-through;
+  opacity: 0.6;
+  color: #32CD32;
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0); }
+  50% { opacity: 1; transform: scale(1); }
+}
+
+.sparkle {
+  animation: sparkle 0.6s ease-in-out;
+}
