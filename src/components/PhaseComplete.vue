@@ -73,7 +73,7 @@ const goHome = () => {
       </div>
       
       <!-- Decoração final -->
-      <div v-if="isFinalPhase" class="mt-8 text-3xl space-x-2">
+      <div v-if="props.isFinalPhase" class="mt-8 text-3xl space-x-2">
         <span class="inline-block animate-float">💕</span>
         <span class="inline-block animate-float" style="animation-delay: -0.3s">💖</span>
         <span class="inline-block animate-float" style="animation-delay: -0.6s">💝</span>
