@@ -46,9 +46,9 @@ const continueGame = () => {
       <!-- Descrição -->
       <div class="bg-white/80 backdrop-blur-sm rounded-3xl p-8 mb-8 shadow-2xl border border-love-pink/30">
         <p class="font-elegant text-lg text-love-dark mb-4 leading-relaxed">
-          Embarquem juntos nesta jornada através de 4 fases especiais, cada uma contando 
-          um capítulo da história de vocês. Encontrem as palavras escondidas que revelam 
-          os momentos mais preciosos do relacionamento de vocês.
+          Embarque nesta jornada através de 4 fases especiais, cada uma contando 
+          um capítulo da nossa história. Encontre as palavras escondidas que revelam 
+          os momentos mais preciosos do nosso relacionamento.
         </p>
         
         <div class="grid md:grid-cols-2 gap-4 text-sm text-love-dark/80">
