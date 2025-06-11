@@ -45,10 +45,10 @@ const goHome = () => {
       <div v-if="isFinalPhase" class="mb-6">
         <div class="text-4xl mb-4 animate-float">💑</div>
         <p class="font-romantic text-2xl text-love-red mb-2">
-          Parabéns, casal!
+          Parabéns, Meu Amor!
         </p>
         <p class="font-elegant text-lg text-love-dark">
-          Vocês completaram toda a jornada da história de amor de vocês. 
+          Você completou toda a jornada da história do nosso amor. 
           Que esta seja apenas uma pequena parte de uma vida inteira de aventuras juntos!
         </p>
       </div>
